@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+  <home><!--Screen 1-->
+    <appwidget 
+	launcher:packageName="com.amazon.fv" 
+	launcher:className="com.amazon.fv.widget.WidgetProvider" 
+	launcher:screen="1" 
+	launcher:x="0" 
+	launcher:y="0" 
+	launcher:spanX="4" 
+	launcher:spanY="4" /><!--Screen 2-->
+    <sactivitywidget 
+	launcher:packageName="com.sec.android.widgetapp.ap.hero.accuweather.widget" 
+	launcher:className="com.sec.android.widgetapp.ap.hero.accuweather.widget.WeatherClock" 
+	launcher:screen="2" 
+	launcher:x="0" 
+	launcher:y="0" 
+	launcher:spanX="4" 
+	launcher:spanY="2" />
+    <appwidget 
+	launcher:packageName="android.googleSearch.googleSearchWidget" 
+	launcher:className="android.googleSearch.googleSearchWidget.GoogleSearchProvider" 
+	launcher:screen="2" 
+	launcher:x="0" 
+	launcher:y="2" 
+	launcher:spanX="4" 
+	launcher:spanY="1" />
+    <favorite 
+	launcher:packageName="com.android.contacts" 
+	launcher:className="com.android.contacts.activities.PeopleActivity" 
+	launcher:screen="2" 
+	launcher:x="0" 
+	launcher:y="3" />
+    <favorite 
+	launcher:packageName="com.android.calendar" 
+	launcher:className="com.android.calendar.AllInOneActivity" 
+	launcher:screen="2" 
+	launcher:x="1" 
+	launcher:y="3" />
+    <favorite 
+	launcher:packageName="com.android.email" 
+	launcher:className="com.android.email.activity.Welcome" 
+	launcher:screen="2" 
+	launcher:x="2" 
+	launcher:y="3" />
+    <favorite 
+	launcher:packageName="com.sec.android.app.camera" 
+	launcher:className="com.sec.android.app.camera.Camera" 
+	launcher:screen="2" 
+	launcher:x="3" 
+	launcher:y="3" /><!--Screen 3-->
+    <appwidget 
+	launcher:packageName="com.sec.android.app.music" 
+	launcher:className="com.sec.android.app.music.appwidget.MusicAppWidgetProvider" 
+	launcher:screen="3" 
+	launcher:x="0" 
+	launcher:y="0" 
+	launcher:spanX="4" 
+	launcher:spanY="1" />
+    <favorite 
+	launcher:packageName="com.samsung.vvm" 
+	launcher:className="com.samsung.vvm.vvmapp.VVMApplication" 
+	launcher:screen="3" 
+	launcher:x="0" 
+	launcher:y="3" />
+    <favorite 
+	launcher:packageName="com.android.vending" 
+	launcher:className="com.android.vending.AssetBrowserActivity" 
+	launcher:screen="3" 
+	launcher:x="1" 
+	launcher:y="3" />
+    <favorite 
+	launcher:packageName="com.sec.android.gallery3d" 
+	launcher:className="com.sec.android.gallery3d.app.Gallery" 
+	launcher:screen="3" 
+	launcher:x="2" 
+	launcher:y="3" />
+    <favorite 
+	launcher:packageName="com.verizon.viewdini" 
+	launcher:className="com.verizon.orion.app.OrionActivity" 
+	launcher:screen="3" 
+	launcher:x="3" 
+	launcher:y="3" />
+  </home>
+  <hotseat>
+    <favorite 
+	launcher:packageName="com.android.contacts" 
+	launcher:className="com.android.contacts.activities.DialtactsActivity" 
+	launcher:screen="0" />
+    <favorite 
+	launcher:packageName="com.android.mms" 
+	launcher:className="com.android.mms.ui.ConversationComposer" 
+	launcher:screen="1" />
+    <favorite 
+	launcher:packageName="com.sec.android.app.snotebook" 
+	launcher:className="com.infraware.filemanager.FmFileTreeListActivity" 
+	launcher:screen="2" />
+    <favorite 
+	launcher:packageName="com.android.browser" 
+	launcher:className="com.android.browser.BrowserActivity" 
+	launcher:screen="3" />
+  </hotseat>
+</favorites>

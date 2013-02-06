@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!---/******************************************************************************
+* @file    com.qualcomm.location.quipslib.xml
+* @brief   configuration file for permission mapping and library publishing
+*  Coppyright (C) 2010 QUALCOMM Incorporated.
+*  All Rights Reserved. QUALCOMM Proprietary and Confidential.
+*  *****************************************************************************-->
+
+
+<permissions>
+
+<library name="com.qualcomm.location.quipslib" file="/system/framework/com.qualcomm.location.quipslib.jar"/>
+
+</permissions>
+

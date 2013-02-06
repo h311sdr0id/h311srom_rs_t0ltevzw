@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file should be put under folder /system/etc/permissions -->
+<permissions>
+    <feature name="com.amazon.fv.feature.preload"/>
+</permissions>
